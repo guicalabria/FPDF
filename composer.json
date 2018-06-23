@@ -1,6 +1,6 @@
 {
     "name": "guicalabria/fpdfg",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "homepage": "http://www.fpdf.org",
     "description": "FPDF is a PHP class which allows to generate PDF files with pure PHP. F from FPDF stands for Free: you may use it for any kind of usage and modify it to suit your needs.",
     "type": "library",
@@ -8,8 +8,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Olivier Plathey",
-            "email": "oliver@fpdf.org",
+            "name": "Guilherme Calabria",
+            "email": "guiga86@gmail.com",
             "homepage": "http://fpdf.org/"
         }
     ],
