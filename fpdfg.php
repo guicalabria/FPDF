@@ -1,15 +1,15 @@
 <?php
 /*******************************************************************************
-* FPDF                                                                         *
+* FPDFG                                                                         *
 *                                                                              *
 * Version: 1.81                                                                *
 * Date:    2015-12-20                                                          *
 * Author:  Olivier PLATHEY                                                     *
 *******************************************************************************/
 
-define('FPDF_VERSION','1.81');
+define('FPDFG_VERSION','1.81');
 
-class FPDF
+class FPDFG
 {
 protected $page;               // current page number
 protected $n;                  // current object number
