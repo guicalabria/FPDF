@@ -931,7 +931,16 @@ function GetPageWidth()
 	// Get current page width
 	return $this->w;
 }
-
+/*Guiii - Guilherme Calabria*/
+function GetMargin($which)
+{
+  if ($which=='l') return $this->lMargin;
+  elseif ($which=='t') return $this->tMargin;
+  elseif ($which=='r') return $this->rMargin;
+  elseif ($which=='b') return $this->bMargin;
+  elseif ($which=='c') return $this->cMargin;
+  return false;
+}
 function GetPageHeight()
 {
 	// Get current page height
