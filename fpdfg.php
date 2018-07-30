@@ -35,7 +35,7 @@ protected $bMargin;            // page break margin
 protected $cMargin;            // cell margin
 protected $x, $y;              // current position in user unit
 protected $lasth;              // height of last printed cell
-protected $LineWidth;          // line width in user unit
+public $LineWidth;          // line width in user unit
 protected $fontpath;           // path containing fonts
 protected $CoreFonts;          // array of core font names
 protected $fonts;              // array of used fonts
@@ -930,16 +930,6 @@ function GetPageWidth()
 {
 	// Get current page width
 	return $this->w;
-}
-/*Guiii - Guilherme Calabria*/
-function GetMargin($which)
-{
-  if ($which=='l') return $this->lMargin;
-  elseif ($which=='t') return $this->tMargin;
-  elseif ($which=='r') return $this->rMargin;
-  elseif ($which=='b') return $this->bMargin;
-  elseif ($which=='c') return $this->cMargin;
-  return false;
 }
 function GetPageHeight()
 {
@@ -1904,4 +1894,3 @@ protected function _enddoc()
 	$this->state = 3;
 }
 }
-?>
